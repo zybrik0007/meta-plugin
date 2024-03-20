@@ -1,0 +1,27 @@
+{
+  "name": "range-slider",
+  "version": "1.0.0",
+  "description": "examole range-slider",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "build": "webpack --mode production"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
+    "sass-resources-loader": "^2.2.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.3"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
